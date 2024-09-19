@@ -12,12 +12,12 @@ function Form(props) {
         props.addTask(name);
         setName("");
       }      
-      
+
     return (
       <form onSubmit={handleSubmit} >
         <h2 className="label-wrapper">
           <label htmlFor="new-todo-input" className="label__lg">
-            What needs to be done?
+            What needs to be done today?
           </label>
         </h2>
         <input
